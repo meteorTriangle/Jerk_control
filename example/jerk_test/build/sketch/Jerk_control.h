@@ -1,3 +1,4 @@
+#line 1 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\Jerk_control.h"
 #include <math.h>
 
 typedef struct 

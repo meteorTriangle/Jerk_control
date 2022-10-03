@@ -1,3 +1,4 @@
+#line 1 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\Jerk_control.cpp"
 #include "Jerk_control.h"
 
 double quadratic_equation(double a, double b, double c){//ax^2+bx+c
