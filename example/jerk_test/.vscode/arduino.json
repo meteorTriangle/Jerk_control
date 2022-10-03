@@ -1,0 +1,6 @@
+{
+    "sketch": "jerk_test.ino",
+    "output": "build",
+    "board": "arduino:avr:uno",
+    "port": "COM5"
+}
