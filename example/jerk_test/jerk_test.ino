@@ -1,4 +1,4 @@
-#include "Jerk_control.h"
+#include "../../src/Jerk_control.h"
 
 jerkType jerkArray[8];
 VAJ_set VAJ_op = {75, 20, 50};

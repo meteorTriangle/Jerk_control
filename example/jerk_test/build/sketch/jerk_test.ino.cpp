@@ -1,15 +1,10 @@
 #include <Arduino.h>
-#line 1 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\jerk_test.ino"
-#include "Jerk_control.h"
+#line 1 "m:\\jerk_control\\example\\jerk_test\\jerk_test.ino"
+#include "../../src/Jerk_control.h"
 
 jerkType jerkArray[8];
 VAJ_set VAJ_op = {75, 20, 50};
 
-#line 6 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\jerk_test.ino"
-void setup();
-#line 35 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\jerk_test.ino"
-void loop();
-#line 6 "c:\\Users\\bcps1\\Desktop\\arduino\\jerk_test\\jerk_test.ino"
 void setup()
 {
 	Serial.begin(9600);
