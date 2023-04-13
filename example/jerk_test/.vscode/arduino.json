@@ -1,7 +1,0 @@
-{
-    "sketch": "jerk_test.ino",
-    "output": "build",
-    "board": "MiniCore:avr:328",
-    "port": "COM5",
-    "configuration": "bootloader=no_bootloader,eeprom=keep,variant=modelP,BOD=4v3,LTO=Os,clock=8MHz_internal"
-}
