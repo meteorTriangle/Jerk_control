@@ -1,12 +1,17 @@
+#ifndef __cplusplus
+#include <stdbool.h>
 #include <math.h>
+#else
+#include <cmath>
+#endif
 
-typedef struct 
+typedef struct jerkType
 {
     double timing;
     double Accelerate;
 } jerkType;
 
-typedef struct 
+typedef struct VAJ_set
 {
     double velocity;
     double accelerate;
@@ -22,18 +27,7 @@ void VAJ_process(
 double velocity_process(
     double dt, 
     int i, 
-    jerkType Jerk_array[8], 
+    const jerkType Jerk_array[8], 
     bool *finished, 
     bool *t4_ed
-);
-
-VAJ_set VAJ_optimize(
-    double distance, 
-    VAJ_set VAJ
-);
-
-double quadratic_equation(
-    double a, 
-    double b, 
-    double c
-);
+) __attribute__ ((const));
