@@ -1,10 +1,10 @@
-#include "Jerk_control.cpp"
+#include "src/Jerk_control.h"
 #include <stdio.h>
 #include <assert.h>
 
 const static double dt = 0.005;
 const static VAJ_set vaj_settings = {70.0, 100.0, 140.0};
-const static const char *colors[] = {"blue", "red", "green", "black", "purple", "orange"};
+const static char *colors[] = {"blue", "red", "green", "black", "purple", "orange"};
 static FILE *of;
 
 static bool my_isClose(double a, double b) {
